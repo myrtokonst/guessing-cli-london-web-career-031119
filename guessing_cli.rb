@@ -21,4 +21,3 @@ while guess!="exit"
  end 
  puts "Goodbye"
 end 
-end
