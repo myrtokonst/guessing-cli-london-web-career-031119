@@ -13,9 +13,6 @@ comp_guess = rand(1..6)
  puts "The computer guessed #{comp_guess}"
  puts "Guess again"
  guess = gets.chomp
-
- elsif guess == "exit"
- break
  end 
  end 
  puts "Goodbye"
