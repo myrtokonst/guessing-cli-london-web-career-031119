@@ -13,5 +13,5 @@ comp_guess = rand(1..6)
  guess = gets.chomp
  end 
  end 
- puts "Goodbye"
+ puts "Goodbye!"
 end 
