@@ -8,8 +8,6 @@ while guess!=exit
    puts "You guessed the correct number!"
  elsif guess.to_i!=comp_guess
  puts "The computer guessed #{comp_guess}"
- elsif guess == "exit"
- break
  end 
  end 
  puts "Goodbye"
