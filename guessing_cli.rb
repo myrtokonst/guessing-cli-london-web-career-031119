@@ -6,5 +6,7 @@ def run_guessing_game
  guess = gets.chomp
  if guess == comp_guess
    puts "You guessed the correct number!"
- else puts 
+ else puts "The computer guessed #{comp_guess}"
+ end 
+ end 
 end 
