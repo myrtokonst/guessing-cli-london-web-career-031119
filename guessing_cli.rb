@@ -9,7 +9,7 @@ comp_guess = rand(1..6)
    puts "You guessed the correct number!"
    guess = gets.chomp
  elsif guess.to_i!=comp_guess
- puts "The computer guessed #{comp_guess}"
+ puts "The computer guessed #{comp_guess}."
  guess = gets.chomp
  end 
  end 
