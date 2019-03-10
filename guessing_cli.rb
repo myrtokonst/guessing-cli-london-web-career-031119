@@ -7,8 +7,14 @@ comp_guess = rand(1..6)
 while guess!="exit"
  if guess.to_i == comp_guess
    puts "You guessed the correct number!"
+   puts "Guess again"
+   guess = gets.chomp
+   comp_guess = rand(1..6)
  elsif guess.to_i!=comp_guess
  puts "The computer guessed #{comp_guess}"
+ puts "Guess again"
+ guess = gets.chomp
+ comp_guess = rand(1..6)
  elsif guess == "exit"
  break
  end 
