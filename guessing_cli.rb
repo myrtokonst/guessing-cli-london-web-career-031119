@@ -7,11 +7,9 @@ while guess!="exit"
 comp_guess = rand(1..6)
  if guess.to_i == comp_guess
    puts "You guessed the correct number!"
-   puts "Guess again"
    guess = gets.chomp
  elsif guess.to_i!=comp_guess
  puts "The computer guessed #{comp_guess}"
- puts "Guess again"
  guess = gets.chomp
  end 
  end 
