@@ -8,7 +8,7 @@ while guess!=exit
    puts "You guessed the correct number!"
  elsif guess!=comp_guess
  puts "The computer guessed #{comp_guess}"
- elsif guess = "exit"
+ elsif guess == "exit"
  break
  end 
  end 
