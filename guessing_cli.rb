@@ -6,7 +6,11 @@ guess = gets.chomp
 while guess!=exit
  if guess == comp_guess
    puts "You guessed the correct number!"
- else puts "The computer guessed #{comp_guess}"
+ elsif guess!=comp_guess
+ puts "The computer guessed #{comp_guess}"
+ elsif guess = "exit"
+ break
  end 
  end 
+ puts "Goodbye"
 end 
