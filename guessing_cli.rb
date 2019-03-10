@@ -19,6 +19,6 @@ while guess!="exit"
  break
  end 
  end 
- end 
  puts "Goodbye"
 end 
+end
